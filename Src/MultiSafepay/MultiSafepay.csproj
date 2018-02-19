@@ -85,7 +85,9 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\WebApplications\Microsoft.WebApplication.targets" />
+  <Import Project="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\Microsoft\VisualStudio\v15.0\WebApplications\Microsoft.WebApplication.targets" />
+
+  <Import Project="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\Microsoft\VisualStudio\v15.0\Web\Microsoft.Web.Publishing.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
 
@@ -94,8 +96,9 @@
   </Target>
   <Target Name="AfterBuild">
   </Target>
- -->
+
   <Target Name="Output">
     <Message Text="Path: $(AspNetTargetsPath)Microsoft.Web.Publishing.targets"/>
 </Target>
+ -->
 </Project>
