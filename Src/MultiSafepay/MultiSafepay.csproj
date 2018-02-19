@@ -97,5 +97,5 @@
  -->
   <Target Name="Output">
     <Message Text="Path: $(MSBuildToolsPath)\WebApplications\Microsoft.WebApplication.targets"/>
-</Target
+</Target>
 </Project>
