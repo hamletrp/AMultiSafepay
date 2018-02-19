@@ -94,8 +94,8 @@
   </Target>
   <Target Name="AfterBuild">
   </Target>
- 
+ -->
   <Target Name="Output">
-    <Message Text="Path: $(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
-</Target-->
+    <Message Text="Path: $(MSBuildToolsPath)\WebApplications\Microsoft.WebApplication.targets"/>
+</Target
 </Project>
