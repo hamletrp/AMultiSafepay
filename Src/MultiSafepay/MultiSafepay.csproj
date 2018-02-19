@@ -96,6 +96,6 @@
   </Target>
  -->
   <Target Name="Output">
-    <Message Text="Path: $(MSBuildToolsPath)\WebApplications\Microsoft.WebApplication.targets"/>
+    <Message Text="Path: $(AspNetTargetsPath)Microsoft.Web.Publishing.targets"/>
 </Target>
 </Project>
